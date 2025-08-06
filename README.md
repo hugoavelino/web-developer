@@ -1,5 +1,5 @@
 # web-developer
 
-###HTML
-###CSS
-###JAVASCRIPT
+#HTML
+#CSS
+#JAVASCRIPT
