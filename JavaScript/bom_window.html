@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript</title>
+
+	<script>
+
+		let janela; // Variável para guardar a referência da janela aberta
+		
+		function abrirPopUp(){
+			// Abre a nova janela e guarda a referência nela
+			janela = window.open('', 'nova_janela', 'width=400, height=300');
+		}
+
+		function fecharPopUp(){
+			// Usa a referência guardada para fechar a janela
+			janela.close();
+		}
+
+	</script>
+
+</head>
+
+<body>
+
+	<button onclick="abrirPopUp()">Abrir Pop-up</button>
+	<button onclick="fecharPopUp()">Fechar Pop-up</button>
+	<button onclick="window.print()">Imprimir página</button>
+
+</body>
+
+</html>
